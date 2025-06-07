@@ -1,0 +1,37 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+const Login = () => {
+  const [code, setCode] = useState('');
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    if (code === 'akic2025') {
+      localStorage.setItem('akic_logged_in', 'true');
+      navigate('/dashboard');
+    } else {
+      alert('Invalid access code.');
+    }
+  };
+
+  return (
+    <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow-md rounded">
+      <h2 className="text-xl font-semibold mb-4">AKIC Member Login</h2>
+      <input
+        type="password"
+        placeholder="Enter club access code"
+        value={code}
+        onChange={(e) => setCode(e.target.value)}
+        className="w-full border px-4 py-2 rounded mb-4"
+      />
+      <button
+        onClick={handleLogin}
+        className="w-full bg-purple-700 text-white py-2 rounded hover:bg-purple-800"
+      >
+        Access Portal
+      </button>
+    </div>
+  );
+};
+
+export default Login;
