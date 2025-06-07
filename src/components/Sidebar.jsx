@@ -1,11 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaHome, FaUsers, FaProjectDiagram, FaUserPlus, FaInfoCircle, FaEnvelope, FaHandshake, FaLock } from 'react-icons/fa';
+import { FaHome, FaUsers, FaProjectDiagram, FaUserPlus, FaEnvelope, FaHandshake, FaLock } from 'react-icons/fa';
 
 const Sidebar = () => {
   const navItems = [
     { name: 'Home', path: '/', icon: <FaHome /> },
-    { name: 'About', path: '/about', icon: <FaInfoCircle /> },
     { name: 'Team', path: '/team', icon: <FaUsers /> },
     { name: 'Projects', path: '/projects', icon: <FaProjectDiagram /> },
     { name: 'Join', path: '/join', icon: <FaUserPlus /> },

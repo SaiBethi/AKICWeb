@@ -36,7 +36,9 @@ const Join = () => {
 
   return (
     <section className="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-4">Join the Ardrey Kell Investing Club</h2>
+      <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+        Join the Ardrey Kell Investing Club
+      </h2>
 
       {isSubmitSuccessful && (
         <div className="p-3 mb-4 text-sm text-green-700 bg-green-100 rounded">

@@ -20,8 +20,10 @@ const MainLayout = ({ children }) => {
         {/* Navbar (hidden on login) */}
         {!isLoginPage && <Navbar />}
 
-        <main className="flex-grow px-10 py-12 w-full max-w-screen-lg">
-          {children || <Outlet />}
+        <main className="flex-grow w-full px-6 py-12 flex justify-center">
+          <div className="w-full max-w-4xl">
+            {children || <Outlet />}
+          </div>
         </main>
 
         {/* Footer (hidden on login) */}

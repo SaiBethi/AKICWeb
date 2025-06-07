@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [code, setCode] = useState('');
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (localStorage.getItem('akic_logged_in') === 'true') {
+      navigate('/dashboard');
+    }
+  }, [navigate]);
 
   const handleLogin = () => {
     if (code === 'akic2025') {
