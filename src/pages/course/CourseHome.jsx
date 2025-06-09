@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 
 const units = [
   { id: 1, title: 'Introduction to Financial Markets' },
-  { id: 2, title: 'Stock Fundamentals & Valuation' },
-  { id: 3, title: 'Trading Basics & Strategies' },
-  { id: 4, title: 'Fintech & Modern Investing' }
+  { id: 2, title: 'Types of Investments' },
+  { id: 3, title: 'Investment & Trading Strategies' },
+  { id: 4, title: 'Analyzing Companies/Investments' },
+  { id: 5, title: 'The Mechanics of Investing '},
+  { id: 6, title: 'Advanced Investments' },
+  { id: 7, title: 'Advanced Analysis' }
 ];
 
 const CourseHome = () => (

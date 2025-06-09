@@ -1,0 +1,121 @@
+{
+  "multiple_choice": [
+    {
+      "question": "Which of the following best describes diversification in investing?",
+      "choices": [
+        "Investing in one stock",
+        "Investing in multiple assets to reduce risk",
+        "Avoiding high-risk investments",
+        "Saving money in a bank"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does a bond represent?",
+      "choices": [
+        "Ownership in a company",
+        "A share of stock",
+        "A loan to a company or government",
+        "A bank account"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which investment strategy focuses on buying undervalued stocks?",
+      "choices": [
+        "Growth Investing",
+        "Dividend Investing",
+        "Value Investing",
+        "Index Investing"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main advantage of using ETFs?",
+      "choices": [
+        "High fees",
+        "Managed by banks",
+        "Diversification and liquidity",
+        "Guaranteed returns"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which of these is considered a technical indicator?",
+      "choices": [
+        "PE Ratio",
+        "Moving Average",
+        "Balance Sheet",
+        "Credit Score"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is margin trading?",
+      "choices": [
+        "Investing with your own cash",
+        "Using borrowed money to trade",
+        "Avoiding taxes",
+        "Paying dividends"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a short squeeze?",
+      "choices": [
+        "Rapid selling of stocks",
+        "Buying back stocks after a price drop",
+        "A rapid price increase due to short covering",
+        "Dividend payment"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which asset typically provides regular income through interest payments?",
+      "choices": [
+        "Stocks",
+        "Real Estate",
+        "Bonds",
+        "Mutual Funds"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the role of credit ratings in bond investing?",
+      "choices": [
+        "They determine dividend payments",
+        "They assess the issuer\u2019s creditworthiness",
+        "They affect stock prices",
+        "They help manage ETFs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which platform allows trading stocks and ETFs?",
+      "choices": [
+        "Credit Union",
+        "Brokerage Account",
+        "Bank Account",
+        "Retirement Plan"
+      ],
+      "answer": 1
+    }
+  ],
+  "free_response": [
+    {
+      "prompt": "Explain how dollar cost averaging works and when it might be beneficial to use this strategy."
+    },
+    {
+      "prompt": "Compare and contrast ETFs and mutual funds in terms of management, cost, and liquidity."
+    },
+    {
+      "prompt": "Describe the risks and benefits of margin trading and how a margin call works."
+    },
+    {
+      "prompt": "How can an investor evaluate a company using fundamental analysis? Mention at least 3 metrics."
+    },
+    {
+      "prompt": "What are the implications of interest rate changes on bond prices? Explain with an example."
+    }
+  ]
+}

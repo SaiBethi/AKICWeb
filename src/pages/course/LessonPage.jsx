@@ -1,62 +1,69 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-
-const sampleQuiz = {
-  question: "What is a balance sheet?",
-  options: [
-    "A record of income & expenses",
-    "A statement of assets, liabilities, equity",
-    "A report of stock orders",
-    "None of the above"
-  ],
-  answerIndex: 1
-};
+import lessonsData from '../course/coursedata/lessons.json';
 
 const LessonPage = () => {
   const { unitId, lessonId } = useParams();
-  const [choice, setChoice] = useState(null);
-  const [submitted, setSubmitted] = useState(false);
-  const correct = choice === sampleQuiz.answerIndex;
+  const lesson = lessonsData[unitId]?.lessons?.[lessonId - 1];
+  const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [score, setScore] = useState(null);
 
-  return (
-    <div className="max-w-3xl mx-auto p-8 bg-white/10 rounded-2xl border border-white/10 backdrop-blur shadow-neon">
-      <h2 className="text-2xl font-extrabold text-white mb-4 select-none">
-        Unit {unitId} - Lesson {lessonId}
-      </h2>
-      <p className="text-gray-200 mb-6 select-none">
-        Lesson content coming soon. Stay tuned for real-world investing insights!
-      </p>
+  const handleAnswer = (qIndex, choiceIndex) => {
+    setSelectedAnswers({ ...selectedAnswers, [qIndex]: choiceIndex });
+  };
 
-      <div className="pt-4 border-t border-white/20">
-        <h3 className="text-xl font-semibold text-brandPurple mb-2 select-none">📋 Quick Quiz</h3>
-        <p className="text-white select-none">{sampleQuiz.question}</p>
-        {sampleQuiz.options.map((opt, idx) => (
-          <label key={idx} className="block text-white cursor-pointer mt-2">
-            <input
-              type="radio"
-              name="quiz"
-              onChange={() => setChoice(idx)}
-              className="mr-2 accent-brandPurple"
-            />
-            {opt}
-          </label>
+  const calculateScore = () => {
+    const correct = lesson.quiz.reduce((acc, q, i) => {
+      if (selectedAnswers[i] === q.answer) return acc + 1;
+      return acc;
+    }, 0);
+    setScore(correct);
+  };
+
+  return lesson ? (
+    <div className="max-w-4xl mx-auto p-8 bg-white/10 border border-white/10 rounded-2xl backdrop-blur shadow-lg space-y-6">
+      <h2 className="text-3xl font-extrabold text-white select-none">{lesson.title}</h2>
+      <p className="text-gray-300 whitespace-pre-line">{lesson.content}</p>
+
+      <div className="pt-6">
+        <h3 className="text-xl font-bold text-white mb-4">Quiz</h3>
+        {lesson.quiz.map((q, idx) => (
+          <div key={idx} className="mb-4 text-white">
+            <p className="font-medium">{idx + 1}. {q.question}</p>
+            <ul className="pl-4 list-disc">
+              {q.choices.map((choice, i) => (
+                <li key={i}>
+                  <label className="flex items-center space-x-2">
+                    <input
+                      type="radio"
+                      name={`q-${idx}`}
+                      value={i}
+                      checked={selectedAnswers[idx] === i}
+                      onChange={() => handleAnswer(idx, i)}
+                      className="accent-brandPurple"
+                    />
+                    <span>{choice}</span>
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-
         <button
-          onClick={() => setSubmitted(true)}
-          disabled={choice === null}
-          className="mt-4 bg-brandPurple text-white py-2 px-5 rounded-lg hover:bg-pink-500 transition disabled:opacity-50"
+          onClick={calculateScore}
+          className="mt-4 px-4 py-2 bg-brandPurple text-white font-semibold rounded hover:bg-opacity-80"
         >
-          Submit
+          Submit Quiz
         </button>
-
-        {submitted && (
-          <p className={`mt-3 font-semibold ${correct ? 'text-green-400' : 'text-red-400'}`}>
-            {correct ? '✅ Correct!' : `❌ Incorrect. The answer is: ${sampleQuiz.options[sampleQuiz.answerIndex]}`}
+        {score !== null && (
+          <p className="mt-4 text-white text-lg font-semibold">
+            You got {score} out of {lesson.quiz.length} correct.
           </p>
         )}
       </div>
     </div>
+  ) : (
+    <div className="text-center p-8 text-white select-none">Lesson not found.</div>
   );
 };
 
