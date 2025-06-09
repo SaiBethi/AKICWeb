@@ -10,6 +10,10 @@ import Partners from './pages/Partners';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import RequireAuth from './utils/RequireAuth';
+import Simulator from './pages/Simulator';
+import AI from './pages/AI';
+import News from './pages/News';
+import Course from './pages/Course';
 
 import MainLayout from './layouts/MainLayout';
 
@@ -28,6 +32,38 @@ function App() {
             <MainLayout>
               <Dashboard />
             </MainLayout>
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="/simulator"
+        element={
+          <RequireAuth>
+            <MainLayout><Simulator /></MainLayout>
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="/ai"
+        element={
+          <RequireAuth>
+            <MainLayout><AI /></MainLayout>
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="/news"
+        element={
+          <RequireAuth>
+            <MainLayout><News /></MainLayout>
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="/course"
+        element={
+          <RequireAuth>
+            <MainLayout><Course /></MainLayout>
           </RequireAuth>
         }
       />
