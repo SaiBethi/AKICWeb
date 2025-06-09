@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Partners from './pages/Partners';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import RequireAuth from './utils/RequireAuth';
 
 import MainLayout from './layouts/MainLayout';
 
@@ -23,13 +24,11 @@ function App() {
       <Route
         path="/dashboard"
         element={
-          isAuthenticated() ? (
+          <RequireAuth>
             <MainLayout>
               <Dashboard />
             </MainLayout>
-          ) : (
-            <Navigate to="/login" replace />
-          )
+          </RequireAuth>
         }
       />
 

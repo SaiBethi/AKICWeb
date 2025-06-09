@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const Sleep = async () => {
+  await sleep(50);
+}
+
 const Login = () => {
   const [code, setCode] = useState('');
   const navigate = useNavigate();
@@ -11,9 +16,10 @@ const Login = () => {
     }
   }, [navigate]);
 
-  const handleLogin = () => {
-    if (code === 'akic2025') {
+  const handleLogin = async () => {
+    if (code.trim() === 'akic2025') {
       localStorage.setItem('akic_logged_in', 'true');
+      await new Promise((resolve) => setTimeout(resolve, 100)); // <-- Add this delay
       navigate('/dashboard');
     } else {
       alert('Invalid access code.');
