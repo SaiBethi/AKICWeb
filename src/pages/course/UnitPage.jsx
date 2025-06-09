@@ -11,24 +11,35 @@ const unitLessons = {
 const UnitPage = () => {
   const { unitId } = useParams();
   const lessons = unitLessons[unitId] || [];
-  
+
   return (
-    <div className="space-y-4">
-      <h2 className="text-2xl font-semibold text-gray-800">
-        Unit {unitId}
+    <div className="max-w-4xl mx-auto p-8 bg-white/10 border border-white/10 rounded-2xl backdrop-blur shadow-lg space-y-6">
+      <h2 className="text-3xl font-extrabold text-white select-none">
+        📦 Unit {unitId} Lessons
       </h2>
-      <ul className="list-disc pl-6 space-y-2">
+
+      <ul className="select-none space-y-3">
         {lessons.map((l, idx) => (
-          <li key={idx}>
-            <Link to={`/course/unit/${unitId}/lesson/${idx + 1}`} className="text-purple-600 hover:underline">
+          <li key={idx} className="flex items-center gap-3 text-white">
+            <span className="inline-block w-2.5 h-2.5 bg-gradient-to-tr from-purple-400 to-pink-500 rounded-full animate-pulse"></span>
+            <Link
+              to={`/course/unit/${unitId}/lesson/${idx + 1}`}
+              className="hover:underline font-medium"
+            >
               {idx + 1}. {l}
             </Link>
           </li>
         ))}
       </ul>
-      <Link to={`/course/unit/${unitId}/test`} className="mt-6 inline-block bg-purple-700 text-white py-2 px-4 rounded hover:bg-purple-800">
-        Take Unit Test
-      </Link>
+
+      <div className="pt-4">
+        <Link
+          to={`/course/unit/${unitId}/test`}
+          className="inline-block bg-brandPurple text-white py-2 px-5 rounded-lg hover:bg-pink-500 transition"
+        >
+          🚀 Take Unit Test
+        </Link>
+      </div>
     </div>
   );
 };

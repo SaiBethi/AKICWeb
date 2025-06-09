@@ -9,14 +9,44 @@ const units = [
 ];
 
 const CourseHome = () => (
-  <section className="space-y-4">
-    {units.map((u) => (
-      <div key={u.id} className="bg-white rounded shadow p-4 hover:shadow-lg">
-        <Link to={`/course/unit/${u.id}`} className="text-xl font-semibold text-purple-700">
-          {u.id}. {u.title}
+  <section className="space-y-8 px-4 max-w-4xl mx-auto">
+    <div className="flex justify-between items-center">
+      <h1 className="text-4xl font-extrabold text-white select-none drop-shadow-md">
+        📚 Course Overview
+      </h1>
+      <Link
+        to="/dashboard"
+        className="bg-brandPurple hover:bg-pink-500 text-white py-2 px-4 rounded-lg transition"
+      >
+        ← Member Dashboard
+      </Link>
+    </div>
+
+    <div className="space-y-4">
+      {units.map((u) => (
+        <div
+          key={u.id}
+          className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-6 shadow-neon transition-all hover:scale-[1.02]"
+        >
+          <Link
+            to={`/course/unit/${u.id}`}
+            className="text-2xl font-bold text-brandPurple hover:underline select-none block"
+          >
+            Unit {u.id}: {u.title}
+          </Link>
+        </div>
+      ))}
+
+      {/* Final Exam card at the end */}
+      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-6 shadow-neon transition-all hover:scale-[1.02]">
+        <Link
+          to="/course/final"
+          className="text-2xl font-bold text-pink-500 hover:underline select-none block"
+        >
+          🎓 Final Exam
         </Link>
       </div>
-    ))}
+    </div>
   </section>
 );
 
