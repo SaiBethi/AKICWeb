@@ -4,8 +4,8 @@ const Projects = () => {
   return (
     <section className="flex justify-center">
       <div className="w-full max-w-3xl px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Projects</h2>
-        <p className="text-lg text-gray-700">
+        <h1 className="akic-heading">Our Projects</h1>
+        <p className="akic-subtitle">
           Explore the tech and finance tools we're building in AKIC Labs.
         </p>
       </div>

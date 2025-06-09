@@ -28,7 +28,7 @@ const Login = () => {
 
   return (
     <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow-md rounded">
-      <h2 className="text-xl font-semibold mb-4">AKIC Member Login</h2>
+      <h1 className="akic-heading">AKIC Member Login</h1>
       <input
         type="password"
         placeholder="Enter club access code"

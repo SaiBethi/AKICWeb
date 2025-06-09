@@ -5,9 +5,10 @@ import team from '../data/team';
 const Team = () => {
   return (
     <section className="flex justify-center">
-      <div className="w-full max-w-6xl px-6 py-16">
-        <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">Meet the Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="w-full max-w-4xl px-6 py-16">
+        <h1 className="akic-heading mb-12">Meet the Team</h1>
+
+        <div className="flex flex-col gap-10">
           {team.map((member, index) => (
             <Card
               key={index}
