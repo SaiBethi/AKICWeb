@@ -35,10 +35,10 @@ const Join = () => {
   };
 
   return (
-    <section className="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+    <section className="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6 text-black">
+      <h1 className="text-3xl font-bold mb-6 text-center text-black">
         Join the Ardrey Kell Investing Club
-      </h2>
+      </h1>
 
       {isSubmitSuccessful && (
         <div className="p-3 mb-4 text-sm text-green-700 bg-green-100 rounded">
@@ -53,7 +53,7 @@ const Join = () => {
           <input
             {...register('name', { required: true })}
             type="text"
-            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 text-black"
             placeholder="Jane Doe"
           />
           {errors.name && <span className="text-red-500 text-xs">This field is required.</span>}
@@ -65,7 +65,7 @@ const Join = () => {
           <input
             {...register('email', { required: true })}
             type="email"
-            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 text-black"
             placeholder="you@example.com"
           />
           {errors.email && <span className="text-red-500 text-xs">This field is required.</span>}
@@ -76,7 +76,7 @@ const Join = () => {
           <label className="block font-medium text-sm mb-1">Grade Level</label>
           <select
             {...register('grade', { required: true })}
-            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 text-black"
           >
             <option value="">Select grade</option>
             <option value="9">9th</option>
@@ -90,7 +90,7 @@ const Join = () => {
         {/* Interests */}
         <div>
           <label className="block font-medium text-sm mb-1">Areas of Interest</label>
-          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700">
+          <div className="grid grid-cols-2 gap-2 text-sm text-black">
             {['Stocks', 'Crypto', 'AI Tools', 'Economics', 'Entrepreneurship'].map((interest) => (
               <label key={interest} className="flex items-center gap-2">
                 <input
@@ -107,11 +107,11 @@ const Join = () => {
 
         {/* Why Join */}
         <div>
-          <label className="block font-medium text-sm mb-1">Why do you want to join?</label>
+          <p className="block font-medium text-sm mb-1">Why do you want to join?</p>
           <textarea
             {...register('message')}
             rows="3"
-            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 text-black"
             placeholder="Tell us what excites you..."
           />
         </div>

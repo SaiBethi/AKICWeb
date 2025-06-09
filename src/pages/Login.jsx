@@ -28,13 +28,15 @@ const Login = () => {
 
   return (
     <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow-md rounded">
-      <h1 className="akic-heading">AKIC Member Login</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-black">
+        Join the Ardrey Kell Investing Club
+      </h1>
       <input
         type="password"
         placeholder="Enter club access code"
         value={code}
         onChange={(e) => setCode(e.target.value)}
-        className="w-full border px-4 py-2 rounded mb-4"
+        className="w-full border px-4 py-2 rounded mb-4 text-black"
       />
       <button
         onClick={handleLogin}
