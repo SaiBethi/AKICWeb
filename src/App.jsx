@@ -20,7 +20,6 @@ import LessonPage from './pages/course/LessonPage';
 import UnitTest from './pages/course/UnitTest';
 import FinalExam from './pages/course/FinalExam';
 
-
 import MainLayout from './layouts/MainLayout';
 
 const isAuthenticated = () => {

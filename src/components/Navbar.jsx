@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Navbar = () => {
-  const isLoggedIn = localStorage.getItem('akic_logged_in') === 'true';
+  const user = localStorage.getItem('akic_user');
+  const isLoggedIn = Boolean(user);
 
   const logout = () => {
-    localStorage.removeItem('akic_logged_in');
+    localStorage.removeItem('akic_user');
     window.location.href = '/';
   };
 
