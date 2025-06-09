@@ -13,7 +13,13 @@ import RequireAuth from './utils/RequireAuth';
 import Simulator from './pages/Simulator';
 import AI from './pages/AI';
 import News from './pages/News';
-import Course from './pages/Course';
+import CourseLayout from './components/CourseLayout';
+import CourseHome from './pages/course/CourseHome';
+import UnitPage from './pages/course/UnitPage';
+import LessonPage from './pages/course/LessonPage';
+import UnitTest from './pages/course/UnitTest';
+import FinalExam from './pages/course/FinalExam';
+
 
 import MainLayout from './layouts/MainLayout';
 
@@ -63,10 +69,18 @@ function App() {
         path="/course"
         element={
           <RequireAuth>
-            <MainLayout><Course /></MainLayout>
+            <MainLayout>
+              <CourseLayout />
+            </MainLayout>
           </RequireAuth>
         }
-      />
+      >
+        <Route index element={<CourseHome />} />
+        <Route path="unit/:unitId" element={<UnitPage />} />
+        <Route path="unit/:unitId/lesson/:lessonId" element={<LessonPage />} />
+        <Route path="unit/:unitId/test" element={<UnitTest />} />
+        <Route path="final-exam" element={<FinalExam />} />
+      </Route>
 
       {/* Public Routes */}
       <Route path="/" element={<MainLayout><Home /></MainLayout>} />
