@@ -40,7 +40,7 @@ const CourseHome = () => (
       {/* Final Exam card at the end */}
       <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-6 shadow-neon transition-all hover:scale-[1.02]">
         <Link
-          to="/course/final"
+          to="/course/final-exam"
           className="text-2xl font-bold text-pink-500 hover:underline select-none block"
         >
           🎓 Final Exam
