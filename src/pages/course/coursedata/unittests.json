@@ -1,0 +1,366 @@
+{
+  "1": [
+    {
+      "question": "What is the main idea of the lesson 'Why invest?'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Why invest?'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Basic Concepts'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Basic Concepts'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "2": [
+    {
+      "question": "What is the main idea of the lesson 'Stocks (Equities)'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Stocks (Equities)'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Bonds (Fixed Income)'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Bonds (Fixed Income)'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Mutual Funds and Exchange-Traded Funds (ETFs)'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Mutual Funds and Exchange-Traded Funds (ETFs)'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Real Estate'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Real Estate'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Additional terminology'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Additional terminology'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "3": [
+    {
+      "question": "What is the main idea of the lesson 'Investment Strategies'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Investment Strategies'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Value Investing'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Value Investing'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Growth Investing'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Growth Investing'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Dividend Investing'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Dividend Investing'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Index Investing'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Index Investing'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Dollar Cost Averaging'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Dollar Cost Averaging'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Types of brokerage accounts'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Types of brokerage accounts'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "4": [
+    {
+      "question": "What is the main idea of the lesson 'Analyzing stocks'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Analyzing stocks'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Fundamental Analysis vs. Technical Analysis'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Fundamental Analysis vs. Technical Analysis'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Analyzing Bonds'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Analyzing Bonds'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Credit Ratings'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Credit Ratings'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Interest Rate Risks'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Interest Rate Risks'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Analyzing Funds'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Analyzing Funds'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Evaluating performance'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Evaluating performance'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "5": [
+    {
+      "question": "What is the main idea of the lesson 'Placing Orders'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Placing Orders'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Understanding Fees & Taxes'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Understanding Fees & Taxes'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "6": [
+    {
+      "question": "What is the main idea of the lesson 'Derivatives'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Derivatives'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Options'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Options'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Futures'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Futures'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Hedging'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Hedging'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Speculation'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Speculation'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Margin Trading'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Margin Trading'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Margin Call'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Margin Call'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Short Selling'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Short Selling'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Short Squeeze'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Short Squeeze'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Mechanics'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Mechanics'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ],
+  "7": [
+    {
+      "question": "What is the main idea of the lesson 'Technical Indicators'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Technical Indicators'",
+        "A historical example"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main idea of the lesson 'Financial Ratio'?",
+      "choices": [
+        "An unrelated topic",
+        "A partially related concept",
+        "The primary topic covered in the lesson 'Financial Ratio'",
+        "A historical example"
+      ],
+      "answer": 2
+    }
+  ]
+}

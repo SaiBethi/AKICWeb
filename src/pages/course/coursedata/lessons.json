@@ -1,0 +1,421 @@
+{
+  "1": {
+    "title": "Introduction to Financial Markets",
+    "lessons": [
+        {
+            "title": "Why Invest?",
+            "content": "Investing helps grow your money over time. Unlike saving, investing exposes you to risk and reward. You may want to achieve your financial goals (reitrement, buying house, etc), and investing is likely the best way to achieve said goals. If done properly, it may add on decades to how long you can be retired for. Investing can also be done to combat inflation, as rising prices may decrease the value of the dollar, and usually inflation directly correlates with growing markets.",
+            "quiz": [
+                {
+                    "question": "What is one key reason people invest?",
+                    "choices": ["To avoid taxes", "To grow wealth", "To hide income", "To increase expenses"],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "title": "Basic Concepts",
+            "content": "Personal investing heavily relies on foundational knowledge. A few of those include; compounding interest, risk and return, diversity-risk tolerance, time horizon, asset allocation, bear market, bull market. It's also important to know the common pitfalls and mistakes that people have and learn to avoid them.",
+            "quiz": [
+                {
+                    "question": "What does personal investing heavily rely on?",
+                    "choices": ["Large capital", "Foundational knowledge", "Inheritance", "Insurance"]
+                }
+            ]
+        }
+    ]
+  },
+
+  "2": {
+    "title": "Types of Investments",
+    "lessons": [
+        {
+            "title": "Stocks (Equities)",
+            "content": "Stocks represent partial ownership in a corporation, meaning when you purchase a stock, you are essentially buying a small piece—known as a share—of that company. As a shareholder, you have a claim on a portion of the company’s assets and earnings. This ownership often entitles you to vote in shareholder meetings and receive dividends if the company distributes profits. Stocks are bought and sold on public exchanges like the New York Stock Exchange (NYSE) or NASDAQ, and their value fluctuates based on factors such as the company’s performance, investor sentiment, industry trends, and broader economic conditions. Investing in stocks is a common way individuals and institutions aim to grow wealth over time, although it comes with varying degrees of risk.",
+            "quiz": [
+            {
+                "question": "What do stocks represent?",
+                "choices": ["A loan", "Insurance", "Ownership", "A bond"],
+                "answer": 2
+            }
+            ]
+        },
+        {
+            "title": "Bonds (Fixed Income)",
+            "content": "What is a bond? A bond is a type of fixed-income investment that functions as a loan between an investor and a borrower, typically a corporation, municipality, or government. When you purchase a bond, you are lending money to the issuer in exchange for regular interest payments, known as coupon payments, and the eventual return of the bond's face value on a specified maturity date. There are several main types of bonds. Government bonds, such as U.S. Treasury bonds, are issued by national governments and are generally considered very low-risk. Corporate bonds are issued by companies and usually offer higher yields to compensate for greater risk, which depends on the issuing company’s financial stability. Municipal bonds are issued by state and local governments and are often tax-exempt, which can make them attractive to investors in higher tax brackets. A bond’s price and yield are closely related and often fluctuate based on market interest rates and the issuer’s creditworthiness. When interest rates rise, bond prices typically fall, causing yields to increase, and vice versa. The yield reflects the return an investor can expect, either as a current yield, which considers the annual coupon relative to the market price, or as yield to maturity, which factors in all future payments and the time remaining until the bond matures. Understanding these dynamics is essential for making informed investment decisions and managing risk effectively.",
+            "quiz": [
+                {
+                    "question": "What is one type of bond?",
+                    "choices": ["Personal", "Government", "University", "Family"],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "title": "Mutual Funds and Exchange-Traded Funds (ETFs)",
+            "content": "Mutual funds and ETFs (Exchange-Traded Funds) are both types of pooled investment vehicles that allow individuals to invest in a diversified portfolio of assets, such as stocks, bonds, or other securities, without needing to purchase each asset individually. A mutual fund is managed by professional fund managers and is bought or sold at the end of the trading day at its net asset value (NAV). In contrast, an ETF trades like a stock on an exchange, with its price fluctuating throughout the trading day based on supply and demand. Both vehicles offer investors a convenient way to gain exposure to a broad set of assets, providing the benefits of diversification, which helps reduce risk by spreading investments across multiple holdings rather than relying on the performance of a single security.",
+            "quiz": [
+                {
+                    "question": "What is a similarity between ETFs and stocks?",
+                    "choices": ["How they are traded", "Their prices", "Regulations", "Volatility"],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Real Estate",
+            "content": "Real estate investing involves purchasing physical property—such as residential homes, commercial buildings, or rental units—with the goal of generating income through rent or capital appreciation as the property's value increases over time. While this method offers tangible asset ownership and potential for long-term returns, it also requires significant capital, maintenance, and management. For those seeking real estate exposure without directly owning property, Real Estate Investment Trusts (REITs) provide an alternative. REITs are companies that own, operate, or finance income-generating real estate and are traded on major stock exchanges like stocks. Investors in REITs earn a share of the income produced by these properties, often through regular dividends, making them a more liquid and accessible way to invest in the real estate market while still benefiting from diversification and passive income potential.",
+            "quiz": [
+                {
+                    "question": "What are REITs?",
+                    "choices": ["Private equity funds", "Bond-affiliated real estate funds", "Government-owned real estate investments", "Publicly traded real estate companies"],
+                    "answer": 4
+                }
+            ]
+        },
+        {
+            "title": "Additional terminology",
+            "content": "Dividends, capital gains, and net asset value (NAV) are key concepts in investing. Dividends are payments made by a company or fund to its shareholders, typically distributed from profits as a form of income. Capital gains occur when an investment is sold for more than its purchase price, reflecting a profit from appreciation in value. NAV, or Net Asset Value, is most commonly used in mutual funds and ETFs to represent the per-share value of the fund’s assets minus its liabilities, calculated at the end of each trading day. In addition to traditional assets, investors can also diversify with commodities—physical goods like gold, oil, or agricultural products that tend to perform well during inflationary periods or market instability. Cryptocurrencies, such as Bitcoin and Ethereum, are digital assets secured by cryptography and decentralized blockchain networks; they are known for their high volatility and potential for both rapid gains and significant losses. Each of these asset types serves different roles in a portfolio and carries its own risk and reward profile.",
+            "quiz": [
+                {
+                    "question": "What are dividends?",
+                    "choices": ["Fixed payments based on stock performance", "Relative payments based on total profits", "Gifts for stockholders", "Stockholder payments based on total revenue"],
+                    "answer": 2
+                }
+            ]
+        }
+    ]
+  },
+
+  "3": {
+    "lessons": [
+        {
+            "title": "Investment Strategies",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Value Investing",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Growth Investing",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Dividend Investing",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Index Investing",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Dollar Cost Averaging",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Types of brokerage accounts",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+  },
+  "4": {
+    "lessons": [
+        {
+            "title": "Analyzing stocks",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Fundamental Analysis vs. Technical Analysis",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Analyzing Bonds",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Credit Ratings",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Interest Rate Risks",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Analyzing Funds",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Evaluating performance",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+  },
+
+  "5": {
+    "lessons": [
+        {
+            "title": "Placing Orders",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Understanding Fees & Taxes",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+  },
+
+  "6": {
+    "lessons": [
+        {
+            "title": "Derivatives",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Options",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Futures",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Hedging",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Speculation",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Margin Trading",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Margin Call",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Short Selling",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Short Squeeze",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Mechanics",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+  },
+
+  "7": {
+    "lessons": [
+        {
+            "title": "Technical Indicators",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "title": "Financial Ratio",
+            "content": "Coming soon...",
+            "quiz": [
+                {
+                    "question": "Coming soon...",
+                    "choices": ["Coming soon...", "Coming soon...", "Coming soon...", "Coming soon..."],
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+  }
+}
